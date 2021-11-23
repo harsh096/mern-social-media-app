@@ -1,0 +1,34 @@
+
+.rightbarFriendListItem {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.rightbarImageContainer {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.rightbarFriendImage {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.rightbarFriendName {
+  font-weight: 500;
+}
+
+.rightbarFriendOnlineStatus {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: limegreen;
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  border: 2px solid white;
+}
